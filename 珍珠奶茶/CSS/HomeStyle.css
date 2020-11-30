@@ -1,0 +1,108 @@
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+/*以上清零语句*/
+
+header{
+    width:100%;
+    /*height:5ch;*/
+    background-color:#00ffd8;
+    position:relative;
+    z-index:1;
+}/*页头*/
+#LoginButton{
+    background-color: #c7e9ee;
+    line-height:34px;
+    float:right;
+    border-radius:10px;
+    width:60px;
+    height:34px;
+    text-align:center;
+    margin:7px 14px;
+}/*登录按钮*/
+
+section{
+    background-color:#26a6e3;
+    width:60%;
+    overflow:hidden;
+    margin:0 auto;
+    position: relative;
+}
+#fenShuSpan{background-color: red;
+    display:inline-block;
+    width: 150px;
+    height: 85px;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top:0;
+    right:0;
+}
+#box{
+    height:100%;
+    position:relative;
+    z-index:0;
+    overflow: hidden;
+}
+#box>#cup{/*background-color:pink;*/
+    width:150px;
+    height:250px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-75px;
+    z-index:-1;
+}
+#cup>img{
+    width:100%;
+    height:100%;
+}
+
+#LR{
+    background-color:greenyellow;
+    height: 100px;
+    position:relative;
+    z-index:1;
+}
+#LR>img{
+    width: 100%;
+    height: 100%;
+}
+
+#UI{background-color:greenyellow;
+    border-radius:20px;
+    opacity: 0.5;
+    margin:13px;
+    padding:20px;
+    width:25%;
+    height: 350px;
+    position: absolute;
+    top:60px;
+    text-align: right;
+
+    display:none;
+
+}
+#UI>form{
+    background-color:white;
+    height: 90%;
+    text-align:center;
+}
+.input{
+    width:50px;
+}
+#UI>form>.L_R{
+    font-size: 30px;
+    width:70px;
+    height: 45px;
+    margin:10px;
+}
+
+.zhenZhu{
+    position:absolute;
+    background-image: url("../images/zhenZhu.png");
+    width: 101px;
+    height: 101px;
+    /*left:0px;/*left范围：0<left<1040*/
+    top:-101px;/*top范围：-101<top<825*/
+    z-index: -2;
+}
+

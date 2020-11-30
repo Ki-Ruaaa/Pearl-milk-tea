@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/HomeStyle.css">
+</head>
+<body>
+    <header>
+        <div id="LoginButton">登录</div>
+    </header>
+    <section>
+        <input value="0" type="button" id="fenShuSpan">
+        <div id="box">
+            <div id="cup" class="move">
+                <img src="images/奶茶杯.png" alt="">
+            </div>
+        </div>
+        <div id="LR">
+            <img src="images/LR条.png" alt="">
+        </div>
+        <div id="UI">
+            <span id="close">关闭</span>
+            <form action="" method="post">
+                <label for="suDu">杯子移速：</label>
+                <input type="text" value="10" placeholder="请输入正整数" id="suDu" class="input">
+                <input type="button" value="设置" id="setBtn"><br/>
+                <label for="fanHuiSD">返回移速：</label>
+                <input type="text" value="1" placeholder="请输入正整数" id="fanHuiSD" class="input">
+                <input type="button" value="设置" id="setBtn_FH"><br/>
+                <label for="ZZSD">珍珠移速：</label>
+                <input type="text" value="1" placeholder="请输入正整数" id="ZZSD" class="input">
+                <input type="button" value="设置" id="ZZSD_Btn"><br/>
+                <label for="ZZJS">珍珠降速：</label>
+                <input type="text" value="20" placeholder="请输入正整数" id="ZZJS" class="input">
+                <input type="button" value="设置" id="ZZJS_Btn"><br/>
+                <label for="NZZT">珍珠产率：</label>
+                <input type="text" value="5000" placeholder="请输入正整数" id="NZZT" class="input">
+                <input type="button" value="设置" id="NZZT_Btn"><br/>
+                <input type="button" class="L_R" value="←" id="L">
+                <input type="button" class="L_R" value="→" id="R">
+                <input type="button" class="L_R" value="C" id="C"><br/>
+                <span>分数：</span>
+                <input value="0" id="fenShu" style="width:30px;text-align: center">
+            </form>
+        </div>
+    </section>
+    <script src="JS/jquery-1.12.4.js"></script>
+    <script src="JS/JS.js"></script>
+</body>
+</html>
